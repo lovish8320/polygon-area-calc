@@ -23,7 +23,7 @@ public class Start extends JPanel {
 		setBackground(drawPanel.c1);
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		JLabel title[] = {new JLabel(" "),new JLabel("Polygon Area Calculator"),new JLabel("(OOM  Project)"),new JLabel(" ")};
-		JLabel members[] = {new JLabel("LOVISH KANSAL - IIT2023152"),new JLabel(" "),new JLabel(" ")};
+		JLabel members[] = { new JLabel("LOVISH KANSAL - IIT2023152"),new JLabel(" "),new JLabel(" ")};
 		for(int i = 0; i< 2;i++) {title[i].setAlignmentX(CENTER_ALIGNMENT);
 		title[i].setAlignmentY(CENTER_ALIGNMENT);
 		title[i].setFont(new Font("courier", Font.BOLD, 80));
@@ -36,7 +36,7 @@ public class Start extends JPanel {
 		title[i].setForeground(drawPanel.c3);
 		add(title[i]);}
 		
-		for(int i = 0; i< 6;i++) {members[i].setAlignmentX(CENTER_ALIGNMENT);
+		for(int i = 0; i< 3;i++) {members[i].setAlignmentX(CENTER_ALIGNMENT);
 		members[i].setFont(new Font("courier", Font.BOLD, 30));
 		members[i].setAlignmentY(CENTER_ALIGNMENT);
 		members[i].setForeground(drawPanel.c2);
