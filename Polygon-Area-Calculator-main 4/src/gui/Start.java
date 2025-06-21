@@ -22,8 +22,8 @@ public class Start extends JPanel {
 		setSize(drawPanel.getSize());
 		setBackground(drawPanel.c1);
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-		JLabel title[] = {new JLabel(" "),new JLabel("Polygon Area Calculator"),new JLabel("(OOM C3 Project)"),new JLabel(" ")};
-		JLabel members[] = {new JLabel("HARDIK BATRA - IIT2023115"), new JLabel("LOVISH KANSAL - IIT2023152"),new JLabel("SUNNY GARG - IIT2023108"),new JLabel("DIVYANSH AGGARWAL - IIT2020111"),new JLabel(" "),new JLabel(" ")};
+		JLabel title[] = {new JLabel(" "),new JLabel("Polygon Area Calculator"),new JLabel("(OOM  Project)"),new JLabel(" ")};
+		JLabel members[] = {new JLabel("LOVISH KANSAL - IIT2023152"),new JLabel(" "),new JLabel(" ")};
 		for(int i = 0; i< 2;i++) {title[i].setAlignmentX(CENTER_ALIGNMENT);
 		title[i].setAlignmentY(CENTER_ALIGNMENT);
 		title[i].setFont(new Font("courier", Font.BOLD, 80));
